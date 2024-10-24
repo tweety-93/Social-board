@@ -16,7 +16,7 @@ const AddPost = () => {
 
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "https://widget.cloudinary.com/v2.0/global/all.js";
+    script.src = "https://upload-widget.cloudinary.com/latest/global/all.js";
     script.async = true;
     document.body.appendChild(script);
   }, []);
